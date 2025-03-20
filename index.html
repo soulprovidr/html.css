@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html.css</title>
+  <link rel="stylesheet" href="html.css">
+</head>
+
+<body>
+  <header>
+    <h1>html.css</h1>
+    <p>A minimal CSS framework for HTML elements</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Headings</h2>
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+    </section>
+
+    <section>
+      <h2>Typography</h2>
+      <p>Paragraph</p>
+      <p>Paragraph with <a href="#">link</a></p>
+      <p>Paragraph with <strong>strong</strong> text</p>
+      <p>Paragraph with <em>emphasis</em> text</p>
+      <p>Paragraph with <small>small</small> text</p>
+      <p>Paragraph with <mark>mark</mark> text</p>
+      <p>Paragraph with <del>deleted</del> text</p>
+      <p>Paragraph with <ins>inserted</ins> text</p>
+      <p>Paragraph with <u>underline</u> text</p>
+      <p>Paragraph with <s>strikethrough</s> text</p>
+      <p>Paragraph with <code>code</code> text</p>
+      <p>Paragraph with <pre>pre</pre> text</p>
+      <p>Paragraph with <kbd>kbd</kbd> text</p>
+      <p>Paragraph with <samp>samp</samp> text</p>
+    </section>
+
+    <section>
+      <h2>Lists</h2>
+      <h3>Unordered</h3>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ul>
+
+      <h3>Ordered</h3>
+      <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Tables</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Heading 1</th>
+            <th>Heading 2</th>
+            <th>Heading 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+          </tr>
+          <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+          </tr>
+          <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+          </tr>
+          <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  
+    <section>
+      <h2>Forms</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" value="Stormzy Cat">
+
+        <label for="email">Email:</label>
+        <input disabled type="email" id="email" name="email" placeholder="Your email">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Your password">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your message"></textarea>
+
+        <fieldset>
+          <legend>Radio buttons</legend>
+          <label for="radio1">
+            <input type="radio" id="radio1" name="radio" value="1">
+            Option 1
+          </label>
+          <label for="radio2">
+            <input type="radio" id="radio2" name="radio" value="2">
+            Option 2
+          </label>
+          <label for="radio3">
+            <input type="radio" id="radio3" name="radio" value="3">
+            Option 3
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Checkboxes</legend>
+          <label for="checkbox1">
+            Checkbox 1
+            <input type="checkbox" id="checkbox1" name="checkbox" value="1">
+          </label>
+
+          <label for="checkbox2">
+            Checkbox 2
+            <input type="checkbox" id="checkbox2" name="checkbox" value="2">
+          </label>
+
+
+        <label for="checkbox3">Checkbox 3</label>
+        Checkbox 3
+        <input type="checkbox" id="checkbox3" name="checkbox" value="3">
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Buttons</h2>
+      <button>Button</button>
+      <button disabled>Disabled Button</button>
+    </section>
+
+    <section>
+      <h2>Code</h2>
+      <pre>
+        <code>
+          const html = document.querySelector('html');
+          html.classList.add('no-scroll');
+        </code>
+      </pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ by Taras & Shola.</p>
+  </footer>
+</body>
+</html>
