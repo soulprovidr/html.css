@@ -13,8 +13,20 @@
     <p>A minimal CSS framework for HTML elements</p>
   </header>
 
+  <nav>
+    <ul>
+        <li><a href="#headings">Headings</a></li>
+        <li><a href="#typography">Typography</a></li>
+        <li><a href="#lists">Lists</a></li>
+        <li><a href="#tables">Tables</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#buttons">Buttons</a></li>
+        <li><a href="#media">Media</a></li>
+    </ul>
+  </nav>
+
   <main>
-    <section>
+    <section id="headings">
       <h2>Headings</h2>
       <h1>Heading 1</h1>
       <h2>Heading 2</h2>
@@ -24,7 +36,7 @@
       <h6>Heading 6</h6>
     </section>
 
-    <section>
+    <section id="typography">
       <h2>Typography</h2>
       <p>Paragraph</p>
       <p>Paragraph with <a href="#">link</a></p>
@@ -40,9 +52,17 @@
       <p>Paragraph with <pre>pre</pre> text</p>
       <p>Paragraph with <kbd>kbd</kbd> text</p>
       <p>Paragraph with <samp>samp</samp> text</p>
+      <hr />
+      <blockquote cite="https://www.huxley.net/bnw/four.html">
+        <p>
+          Words can be like X-rays, if you use them properly—they’ll go through
+          anything. You read and you’re pierced.
+        </p>
+      </blockquote>
+      <p>—Aldous Huxley, <cite>Brave New World</cite></p>
     </section>
 
-    <section>
+    <section id="lists">
       <h2>Lists</h2>
       <h3>Unordered</h3>
       <ul>
@@ -98,7 +118,7 @@
       </table>
     </section>
   
-    <section>
+    <section id="forms">
       <h2>Forms</h2>
       <form>
         <label for="name">Name:</label>
@@ -150,18 +170,18 @@
       </form>
     </section>
 
-    <section>
+    <section id="buttons">
       <h2>Buttons</h2>
       <button>Button</button>
       <button disabled>Disabled Button</button>
     </section>
 
-    <section>
+    <section id="code">
       <h2>Code</h2>
       <pre>
         <code>
-          const html = document.querySelector('html');
-          html.classList.add('no-scroll');
+const html = document.querySelector('html');
+html.classList.add('no-scroll');
         </code>
       </pre>
     </section>
